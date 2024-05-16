@@ -1,0 +1,27 @@
+{
+  "name": "kiosk",
+  "version": "1.0.0",
+  "description": "icecream kiosk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "akansha",
+    "icecream",
+    "kiosk"
+  ],
+  "author": "akansha pandey",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-flash-notification": "^0.5.0",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.3.5",
+    "node-notifier": "^10.0.1",
+    "toastify-js": "^1.12.0"
+  }
+}

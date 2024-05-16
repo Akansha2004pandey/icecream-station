@@ -1,0 +1,2 @@
+<object data="https://lazza.co.in/admin/uploads/products/product-3717.svg" type="image/svg+xml" style="width:100%; max-width:400px;" loading="lazy"></object>
+https://lazza.co.in/admin/uploads/products/

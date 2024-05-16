@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-fuchsia-800 flex flex-col min-h-screen w-full justify-center items-center">
+
+        <% cart.forEach((item)=>{%>
+
+            <div class="bg-zinc-100 px-5 flex justify-between w-2/5 mb-2 rounded-md shadow-xl shadow-fuchsia-600">
+                <div class="flex flex-col"> 
+                    <div class="py-2 px-3 text-2xl text-black"><%=item.productName%></div>
+                    <div class="py-2 px-3 text-xl text-zinc-500">₹ <%=(item.regularPrice)%></div>
+                </div>
+                <div class="flex">
+                    <div class="px-3 py-3 font-bold text-red-500 text-2xl ">-</div>
+                    <div class="w-[100px]"><img src="https://lazza.co.in/admin/uploads/products/<%=item.productImage%>" alt=""></div>
+                    <div class="px-3 py-3 font-bold text-green-500 text-2xl">+</div>
+                </div>
+            </div>
+        <%})%>
+    </div>
+</body>
+</html>

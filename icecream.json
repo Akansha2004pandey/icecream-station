@@ -1,0 +1,593 @@
+[
+    {
+        "productName": "Big Chocobar Easy Pack",
+        "category": "3",
+        "regularPrice": "30",
+        "productImage": "product-9147.svg",
+        "productQty": "75"
+    },
+    {
+        "productName": "Unicone Butterscotch 120ML",
+        "category": "8",
+        "regularPrice": "40",
+        "productImage": "product-9857.svg",
+        "productQty": "120"
+    },
+    {
+        "productName": "American Bar Fun Pack",
+        "category": "3",
+        "regularPrice": "50",
+        "productImage": "product-5601.svg",
+        "productQty": "75"
+    },
+    {
+        "productName": "Big Mango Duble Easy Pack",
+        "category": "6",
+        "regularPrice": "30",
+        "productImage": "product-2982.svg",
+        "productQty": "75"
+    },
+    {
+        "productName": "Madagascar Vanilla Party Pack",
+        "category": "7",
+        "regularPrice": "250",
+        "productImage": "product-3953.svg",
+        "productQty": "1000"
+    },
+    {
+        "productName": "Madagascar Vanilla Family Pack",
+        "category": "7",
+        "regularPrice": "140",
+        "productImage": "product-8613.svg",
+        "productQty": "500"
+    },
+    {
+        "productName": "Unicone Chocolate",
+        "category": "8",
+        "regularPrice": "50",
+        "productImage": "product-5999.svg",
+        "productQty": "120"
+    },
+    {
+        "productName": "Big Green Apple Duble Easy Pack",
+        "category": "6",
+        "regularPrice": "30",
+        "productImage": "product-5484.svg",
+        "productQty": "75"
+    },
+    {
+        "productName": "Big Raspberry Duble Easy Pack",
+        "category": "6",
+        "regularPrice": "30",
+        "productImage": "product-4186.svg",
+        "productQty": "75"
+    },
+    {
+        "productName": "Sundae",
+        "category": "5",
+        "regularPrice": "30",
+        "productImage": "product-2450.svg",
+        "productQty": "100"
+    },
+    {
+        "productName": "Rabdi Kulfi Stick Easy Pack",
+        "category": "3",
+        "regularPrice": "30",
+        "productImage": "product-3717.svg",
+        "productQty": "40"
+    },
+    {
+        "productName": "Natural Tender Coconut Family Pack",
+        "category": "7",
+        "regularPrice": "275",
+        "productImage": "product-2509.svg",
+        "productQty": "500"
+    },
+    {
+        "productName": "Vanilla Sandwich",
+        "category": "4",
+        "regularPrice": "30",
+        "productImage": "product-1558.svg",
+        "productQty": "75"
+    },
+    {
+        "productName": "Nut Butterscotch Party Pack",
+        "category": "7",
+        "regularPrice": "350",
+        "productImage": "product-5405.svg",
+        "productQty": "1000"
+    },
+    {
+        "productName": "Spanish Delight Capri Cone",
+        "category": "8",
+        "regularPrice": "60",
+        "productImage": "product-7421.svg",
+        "productQty": "120"
+    },
+    {
+        "productName": "DELUXE CASSATA",
+        "category": "4",
+        "regularPrice": "60",
+        "productImage": "product-2250.svg",
+        "productQty": "150"
+    },
+    {
+        "productName": "Belgium Chocolate Party Pack",
+        "category": "7",
+        "regularPrice": "425",
+        "productImage": "product-8611.svg",
+        "productQty": "1000"
+    },
+    {
+        "productName": "Natural Avocado Party Pack",
+        "category": "7",
+        "regularPrice": "425",
+        "productImage": "product-7478.svg",
+        "productQty": "1000"
+    },
+    {
+        "productName": "Belgium Chocolate Family Pack",
+        "category": "7",
+        "regularPrice": "240",
+        "productImage": "product-8105.svg",
+        "productQty": "500"
+    },
+    {
+        "productName": "Chocolate Family Pack",
+        "category": "7",
+        "regularPrice": "165",
+        "productImage": "product-1206.svg",
+        "productQty": "500"
+    },
+    {
+            "productName": "Chocolate Passion Sundae",
+            "category": "5",
+            "regularPrice": "45",
+            "productImage": "product-5334.svg",
+            "productQty": "100"
+        },
+        {
+            "productName": "Nut butterscotch Family Pack",
+            "category": "7",
+            "regularPrice": "200",
+            "productImage": "product-8798.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Kulfi Matka",
+            "category": "2",
+            "regularPrice": "60",
+            "productImage": "product-4900.svg",
+            "productQty": "125"
+        },
+        {
+            "productName": "Wimbledon Strawberry Party Pack",
+            "category": "7",
+            "regularPrice": "275",
+            "productImage": "product-1498.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Spanish Delight Party Pack",
+            "category": "7",
+            "regularPrice": "500",
+            "productImage": "product-7128.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Madagascar Vanilla Fantasy",
+            "category": "2",
+            "regularPrice": "45",
+            "productImage": "product-3471.svg",
+            "productQty": "125"
+        },
+        {
+            "productName": "Natural Avocado Fantasy",
+            "category": "2",
+            "regularPrice": "65",
+            "productImage": "product-3588.svg",
+            "productQty": "125"
+        },
+        {
+            "productName": "Rocket Kulfi Easy Pack",
+            "category": "3",
+            "regularPrice": "50",
+            "productImage": "product-1781.svg",
+            "productQty": "50"
+        },
+        {
+            "productName": "Premium Spanish Delight Family Pack",
+            "category": "7",
+            "regularPrice": "275",
+            "productImage": "product-4081.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Natural Tender Coconut Fantasy 125ML",
+            "category": "7",
+            "regularPrice": "75",
+            "productImage": "product-3547.svg",
+            "productQty": "125"
+        },
+        {
+            "productName": "Alphonso Mango Party Pack",
+            "category": "7",
+            "regularPrice": "350",
+            "productImage": "product-4564.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Gudbud Sundae",
+            "category": "5",
+            "regularPrice": "50",
+            "productImage": "product-2662.svg",
+            "productQty": "150"
+        },
+        {
+            "productName": "Red Velvet Family Pack",
+            "category": "7",
+            "regularPrice": "200",
+            "productImage": "product-9924.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Chocolate Bulk Pack",
+            "category": "9",
+            "regularPrice": "900",
+            "productImage": "product-7251.svg",
+            "productQty": "4000"
+        },
+        {
+            "productName": "Dessert Mist Strawberry Sundae",
+            "category": "5",
+            "regularPrice": "40",
+            "productImage": "product-1593.svg",
+            "productQty": "100"
+        },
+        {
+            "productName": "Natural Blueberry 125ml",
+            "category": "2",
+            "regularPrice": "90",
+            "productImage": "product-3480.svg",
+            "productQty": "125"
+        },
+        {
+            "productName": "Velvet Vanilla Family Pack",
+            "category": "7",
+            "regularPrice": "125",
+            "productImage": "product-1254.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Sugar Free Butterscotch Family Pack",
+            "category": "7",
+            "regularPrice": "200",
+            "productImage": "product-6069.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Musk Melon Fantasy",
+            "category": "2",
+            "regularPrice": "60",
+            "productImage": "product-3006.svg",
+            "productQty": "125"
+        },
+        {
+            "productName": "Velvet Vanilla Bulk Pack",
+            "category": "9",
+            "regularPrice": "650",
+            "productImage": "product-6709.svg",
+            "productQty": "4000"
+        },
+        {
+            "productName": "Sugar Free Vanilla Family Pack",
+            "category": "7",
+            "regularPrice": "200",
+            "productImage": "product-7439.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Gajar Halwa Fantasy",
+            "category": "2",
+            "regularPrice": "55",
+            "productImage": "product-3108.svg",
+            "productQty": "125"
+        },
+        {
+            "productName": "Sugar Free Strawberry Family Pack",
+            "category": "7",
+            "regularPrice": "200",
+            "productImage": "product-8742.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Strawberry Plain Bulk Pack",
+            "category": "9",
+            "regularPrice": "750",
+            "productImage": "product-4027.svg",
+            "productQty": "4000"
+        },
+        {
+            "productName": "Velvet Vanilla Party Pack",
+            "category": "7",
+            "regularPrice": "225",
+            "productImage": "product-3129.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Wimbledon Strawberry Family Pack",
+            "category": "7",
+            "regularPrice": "150",
+            "productImage": "product-5311.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Spanish Delight Bulk Pack",
+            "category": "9",
+            "regularPrice": "1550",
+            "productImage": "product-2621.svg",
+            "productQty": "4000"
+        },
+        {
+            "productName": "Nut Butterscotch Bulk Pack",
+            "category": "9",
+            "regularPrice": "900",
+            "productImage": "product-6172.svg",
+            "productQty": "4000"
+        },
+        {
+            "productName": "Puttu Ice cream",
+            "category": "2",
+            "regularPrice": "300",
+            "productImage": "product-6985.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Natural Blueberry Family Pack",
+            "category": "7",
+            "regularPrice": "330",
+            "productImage": "product-5042.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Nut Butterscotch Family Pack",
+            "category": "7",
+            "regularPrice": "165",
+            "productImage": "product-5283.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Red Velvet Party Pack",
+            "category": "7",
+            "regularPrice": "350",
+            "productImage": "product-8564.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Spanish Delight Family Pack",
+            "category": "7",
+            "regularPrice": "225",
+            "productImage": "product-5371.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Pista Green Family Pack",
+            "category": "7",
+            "regularPrice": "165",
+            "productImage": "product-2305.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Classic Pista Green Party Pack",
+            "category": "7",
+            "regularPrice": "300",
+            "productImage": "product-6722.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Gajar Halwa Family Pack",
+            "category": "7",
+            "regularPrice": "200",
+            "productImage": "product-3842.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Classic Tender Coconut Family Pack",
+            "category": "7",
+            "regularPrice": "225",
+            "productImage": "product-1691.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Classic Strawberry Party Pack",
+            "category": "7",
+            "regularPrice": "250",
+            "productImage": "product-1257.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Natural Tender coconut Party Pack",
+            "category": "7",
+            "regularPrice": "500",
+            "productImage": "product-4861.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Alphonso Mango Family Pack",
+            "category": "7",
+            "regularPrice": "200",
+            "productImage": "product-2549.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Classic Strawberry Family Pack",
+            "category": "7",
+            "regularPrice": "140",
+            "productImage": "product-7249.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Pista Green Bulk Pack",
+            "category": "9",
+            "regularPrice": "800",
+            "productImage": "product-5187.svg",
+            "productQty": "4000"
+        },
+        {
+            "productName": "Chocolate Party Pack",
+            "category": "7",
+            "regularPrice": "300",
+            "productImage": "product-2251.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Natural Avocado Family Pack",
+            "category": "7",
+            "regularPrice": "240",
+            "productImage": "product-3741.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Musk Melon Family Pack",
+            "category": "7",
+            "regularPrice": "240",
+            "productImage": "product-7573.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Jack Fruit Party Pack",
+            "category": "7",
+            "regularPrice": "325",
+            "productImage": "product-8206.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Musk Melon Party Pack",
+            "category": "7",
+            "regularPrice": "425",
+            "productImage": "product-1674.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Natural Blueberry Party Pack",
+            "category": "7",
+            "regularPrice": "600",
+            "productImage": "product-5483.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Butterscotch King Cone",
+            "category": "8",
+            "regularPrice": "30",
+            "productImage": "product-4374.svg",
+            "productQty": "120"
+        },
+        {
+            "productName": "Red Velvet 125 ml",
+            "category": "7",
+            "regularPrice": "55",
+            "productImage": "product-3183.svg",
+            "productQty": "125"
+        },
+        {
+            "productName": "Fig Honey Party Pack",
+            "category": "7",
+            "regularPrice": "325",
+            "productImage": "product-5811.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Classic Tender Coconut Party Pack",
+            "category": "7",
+            "regularPrice": "400",
+            "productImage": "product-2602.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Gajar Halwa Party Pack",
+            "category": "7",
+            "regularPrice": "350",
+            "productImage": "product-8690.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Classic Spanish Delight Party Pack",
+            "category": "7",
+            "regularPrice": "400",
+            "productImage": "product-5061.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Chocolate King Cone",
+            "category": "8",
+            "regularPrice": "40",
+            "productImage": "product-4338.svg",
+            "productQty": "120"
+        },
+        {
+            "productName": "Butterscotch Party Pack",
+            "category": "7",
+            "regularPrice": "300",
+            "productImage": "product-3503.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Classic Kulfi Party Pack",
+            "category": "7",
+            "regularPrice": "450",
+            "discountedPrice": "410",
+            "productImage": "product-9774.svg",
+            "productQty": "1000"
+        },
+        {
+            "productName": "Classic Tender Coconut Bulk Pack",
+            "category": "9",
+            "regularPrice": "1225",
+            "productImage": "product-8541.svg",
+            "productQty": "4000"
+        },
+        {
+            "productName": "Butterscotch Family Pack",
+            "category": "7",
+            "regularPrice": "150",
+            "productImage": "product-9760.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Butterscotch Caramel Bulk Pack",
+            "category": "9",
+            "regularPrice": "700",
+            "productImage": "product-1209.svg",
+            "productQty": "4000"
+        },
+        {
+            "productName": "Latte Praline 125 ml",
+            "category": "7",
+            "regularPrice": "110",
+            "productImage": "product-7742.svg",
+            "productQty": "125"
+        },
+        {
+            "productName": "Strawberry Excess Family Pack",
+            "category": "7",
+            "regularPrice": "200",
+            "productImage": "product-7728.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Classic Kulfi Family Pack",
+            "category": "7",
+            "regularPrice": "250",
+            "productImage": "product-1481.svg",
+            "productQty": "500"
+        },
+        {
+            "productName": "Kulfi Bulk Pack",
+            "category": "9",
+            "regularPrice": "900",
+            "productImage": "product-3526.svg",
+            "productQty": "4000"
+        }
+    
+    
+]

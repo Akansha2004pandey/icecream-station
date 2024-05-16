@@ -1,0 +1,50 @@
+[
+    {
+      "categoryId": "2",
+      "categoryName": "Cups & Shapes",
+      "categoryImage": "7W8kkXWL0IwGDg2p8QwGhg5_.jpg",
+      "categoryStatus": "1"
+    },
+    {
+      "categoryId": "3",
+      "categoryName": "Sticks",
+      "categoryImage": "r9vIetWAnJTp4_0LRnuXQSnn.jpg",
+      "categoryStatus": "1"
+    },
+    {
+      "categoryId": "4",
+      "categoryName": "Cassata",
+      "categoryImage": "N9uRcoJGjAcmLIaS6qNa1wag.jpg",
+      "categoryStatus": "1"
+    },
+    {
+      "categoryId": "5",
+      "categoryName": "Sundae",
+      "categoryImage": "7OBncDGsP7sciWicHa4OEUSU.jpg",
+      "categoryStatus": "1"
+    },
+    {
+      "categoryId": "6",
+      "categoryName": "Dubles",
+      "categoryImage": "5xj7viFBeUMJkrTvvBcpDKp9.jpg",
+      "categoryStatus": "1"
+    },
+    {
+      "categoryId": "7",
+      "categoryName": "Carry Home",
+      "categoryImage": "r6gvbzx9hC4dhcw57c7ozscI1.jpg",
+      "categoryStatus": "1"
+    },
+    {
+      "categoryId": "8",
+      "categoryName": "Cone",
+      "categoryImage": "DfPT72ILt-A5W_AibZl211DY1.jpg",
+      "categoryStatus": "1"
+    },
+    {
+      "categoryId": "9",
+      "categoryName": "Bulk",
+      "categoryImage": "JusNom3W3nY9wFgWRLn_wXST1.jpg",
+      "categoryStatus": "1"
+    }
+  ]
