@@ -2,8 +2,9 @@
   "name": "kiosk",
   "version": "1.0.0",
   "description": "icecream kiosk",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,6 +17,7 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "connect-flash": "^0.1.1",
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "express-flash-notification": "^0.5.0",

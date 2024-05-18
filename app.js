@@ -1,3 +1,4 @@
+require("dotenv").config()
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -11,11 +12,11 @@ const Admin = require('./models/Admin');
 const bodyParser=require('body-parser');
 //const paymentRoutes = require('./routes/payment');
 let order=200;
-const port = 3000;
+const port = process.env.PORT||3000;
 
 var category;
 app.use(express.static(path.join(__dirname, 'public')));
-mongoose.connect('mongodb://127.0.0.1:27017/kiosk')
+mongoose.connect(process.env.MONGO_URL ||'mongodb://127.0.0.1:27017/kiosk')
   .then(() => console.log("Mongodb Connected"))
   .catch((err) => console.log("Mongo Error", err));
 
