@@ -9,7 +9,7 @@
 <body>
     
     <div class="bg-fuchsia-800 flex flex-col min-h-screen w-full justify-center items-center">
-        <h1 class="my-3 text-white font-bold text-xl text-center">Cart</h1>
+        <h1 class="my-3 text-white font-bold text-xl text-center">Is This Order Correct ?</h1>
         <% cart.forEach((item)=>{%>
 
             <div class="bg-zinc-100 px-5 flex justify-between w-2/5 mb-2 rounded-md shadow-xl shadow-fuchsia-600">
@@ -17,19 +17,23 @@
                     <div class="py-2 px-3 text-xl text-black"><%=item.productName%> (<%=item.items%>)</div>
                     <div class="flex justify-start">
                         <div class="py-2 px-3 text text-zinc-500 ">₹ <%=(item.regularPrice)%></div>
-                        <div class="px-2 py-1 mb-2 rounded-md text font-bold text-white bg-teal-600 w-[80px]" onclick="window.location.href='/cart/remove?id=<%=item._id%>'">remove</div>
+                        
                 </div> 
                 </div>
                 <div class="flex">
-                    <div class="px-3 py-3 font-bold text-red-500 text-2xl" onclick="window.location.href='/cart/decrement?id=<%=item._id%>'">-</div>
+
                     <div class="w-[100px]"><img src="https://lazza.co.in/admin/uploads/products/<%=item.productImage%>" alt=""></div>
-                    <div class="px-3 py-3 font-bold text-green-500 text-2xl" onclick="window.location.href='/cart/increment?id=<%=item._id%>'">+</div>
+                    
                 </div>
             </div>
         <%})%>
-        <div class="flex">
-            <div class="px-2 py-1 ml-4 mb-2 rounded-md text font-bold text-white bg-red-600 w-[80px]" onclick="window.location.href='/cancel'">Cancel</div>
-            <div class="px-2 py-1 mr-4 mb-2 rounded-md text font-bold text-white bg-teal-600 w-[80px]" onclick="window.location.href='/confirm'">Order</div>
+        <div class="flex w-2/5 bg-white">
+            <div class="px-2 py-1 text-zinc-700  text-xl font-semibold mb-2">total Amount:</div>
+            <div class="px-2 py-1 text-zinc-700 text-xl font-semibold mb-">₹ <%=total%></div>
+        </div>
+        <div class="flex w-2/5">
+            <div class="px-2 py-1 ml-4 mb-2 rounded-md text font-bold text-white bg-red-600 w-[80px]" onclick="window.location.href='/cancel'">No</div>
+            <div class="px-2 py-1 mr-4 mb-2 rounded-md text font-bold text-white bg-teal-600 w-[80px]" onclick="window.location.href='/order/?mode=<%=mode%>'">Yes</div>
         </div>
     </div>
 </body>
