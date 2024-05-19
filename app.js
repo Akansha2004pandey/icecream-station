@@ -16,7 +16,7 @@ const port = process.env.PORT||3000;
 
 var category;
 app.use(express.static(path.join(__dirname, 'public')));
-mongoose.connect(process.env.MONGO_URL ||'mongodb://127.0.0.1:27017/kiosk')
+mongoose.connect(process.env.MONGO_URL)
   .then(() => console.log("Mongodb Connected"))
   .catch((err) => console.log("Mongo Error", err));
 
