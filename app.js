@@ -158,12 +158,18 @@ app.get('/cart/remove', (req, res) => {
   }
 })
 app.get('/confirm', (req, res) => {
+
   let total = 0;
+  if(!req.session.cart){
+    res.redirect('/');
+  }
   const cart = req.session.cart;
+  
   
   cart.forEach((item) => {
     total += item.regularPrice * item.items;
   });
+  
   req.session.total=total;
   const mode = req.session.mode;
   res.render('confirm', { cart, total, mode });
@@ -174,7 +180,9 @@ app.get('/cancel', (req, res) => {
 })
 app.get('/order', async (req, res) => {
   const mode = req.query.mode;
-
+  if(!req.session.cart){
+    res.redirect("/");
+ }
   
 
   if (req.session && req.session.cart) {
@@ -187,6 +195,9 @@ app.get('/order', async (req, res) => {
         payementMethod: mode,
         orderNo: order,
         orderId:orderId
+      }
+      if(!req.session.cart){
+        res.redirect('/');
       }
 
       try {
