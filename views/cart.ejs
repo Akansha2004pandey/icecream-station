@@ -10,10 +10,15 @@
 <body>
     
     <div class="bg-fuchsia-800 flex flex-col min-h-screen w-full justify-center items-center">
-        <h1 class="my-3 text-white font-bold text-xl text-center">Cart</h1>
+        
+        <% if (cart.length===0) { %>
+            <p class="font-bold text-white text-3xl">The cart is empty🥲🛒</p>
+            <div class="px-2 py-1 ml-4 mb-2 rounded-md text font-bold text-white bg-red-600 w-[80px] mt-4" onclick="window.location.href='/cancel'">Go back</div>
+          <% } else { %>
+            <h1 class="my-3 text-white font-bold text-xl text-center">Cart</h1>
         <% cart.forEach((item)=>{%>
 
-            <div class="bg-zinc-100 px-5 flex justify-between w-2/5 mb-2 rounded-md shadow-xl shadow-fuchsia-600">
+            <div class="bg-zinc-100 px-5 flex justify-between w-2/5 min-w-[400px] mb-2 rounded-md shadow-xl shadow-fuchsia-600">
                 <div class="flex flex-col"> 
                     <div class="py-2 px-3 text-xl text-black"><%=item.productName%> (<%=item.items%>)</div>
                     <div class="flex justify-start">
@@ -22,16 +27,17 @@
                 </div> 
                 </div>
                 <div class="flex">
-                    <div class="px-3 py-3 font-bold text-red-500 text-2xl" onclick="window.location.href='/cart/decrement?id=<%=item._id%>'">-</div>
-                    <div class="w-[100px]"><img src="https://lazza.co.in/admin/uploads/products/<%=item.productImage%>" alt=""></div>
-                    <div class="px-3 py-3 font-bold text-green-500 text-2xl" onclick="window.location.href='/cart/increment?id=<%=item._id%>'">+</div>
+                    <div class="px-3 py-3 font-bold text-red-500 text-2xl  cursor-pointer" onclick="window.location.href='/cart/decrement?id=<%=item._id%>'">-</div>
+                    <div class="w-[100px] cursor-pointer"><img src="https://lazza.co.in/admin/uploads/products/<%=item.productImage%>" alt=""></div>
+                    <div class="px-3 py-3 font-bold text-green-500 text-2xl cursor-pointer" onclick="window.location.href='/cart/increment?id=<%=item._id%>'">+</div>
                 </div>
             </div>
         <%})%>
         <div class="flex">
-            <div class="px-2 py-1 ml-4 mb-2 rounded-md text font-bold text-white bg-red-600 w-[80px]" onclick="window.location.href='/cancel'">Cancel</div>
-            <div class="px-2 py-1 mr-4 mb-2 rounded-md text font-bold text-white bg-teal-600 w-[80px]" onclick="window.location.href='/confirm'">Order</div>
+            <div class="px-2 py-1 ml-4 mb-2 rounded-md text font-bold text-white bg-red-600 w-[80px] cursor-pointer" onclick="window.location.href='/cancel'">Cancel</div>
+            <div class="px-2 py-1 mr-4 mb-2 rounded-md text font-bold text-white bg-teal-600 w-[80px] cursor-pointer" onclick="window.location.href='/confirm'">Order</div>
         </div>
+        <% } %>
     </div>
 </body>
 </html>

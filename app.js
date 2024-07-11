@@ -88,11 +88,20 @@ app.get('/cart/cart', async (req, res) => {
     return res.status(404).send('Product not found');
   }
   const dataitems = {
-    ...data.toObject(), // Convert the Mongoose document to a plain object
+    ...data.toObject(), 
     items: 1
   };
+  if (!req.session.cart) {
+    req.session.cart = [];
+}
   const name = dataitems.productName;
-  req.session.cart.push(dataitems);
+
+  const existingItemIndex = req.session.cart.findIndex(item => item._id.toString() === dataitems._id.toString());
+  if (existingItemIndex !== -1) {
+      req.session.cart[existingItemIndex].items += 1;
+  } else {
+      req.session.cart.push(dataitems);
+  }
   
   showSuccessMessage(`${name} added to cart successfully!`);
 
@@ -105,6 +114,7 @@ app.get('/cart/cart', async (req, res) => {
 
 })
 app.get('/cart/items', (req, res) => {
+  
   res.render("cart", { cart: req.session.cart });
 })
 app.get('/cart/increment', (req, res) => {
@@ -141,7 +151,7 @@ app.get('/cart/remove', (req, res) => {
   }
   showSuccessMessage('Item removed from cart successfully!');
   if (!req.session.cart.length) {
-    res.redirect(`/modee/?mode=${req.session.mode}`);
+    res.redirect(`/mode`);
   } else {
     
     res.redirect('/cart/items');
