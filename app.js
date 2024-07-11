@@ -202,7 +202,9 @@ app.get('/order', async (req, res) => {
 
 
       } catch (error) {
+       
         console.error('Error creating order:', error);
+        
         res.status(500).json({ message: 'Internal server error' });
       }
     }else{
