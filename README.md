@@ -1,1 +1,1 @@
-Deployed website link : https://icecream-station-1.onrender.com
+Deployed website link : https://icecream-station-2.onrender.com/
